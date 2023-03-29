@@ -1,5 +1,5 @@
 class Binary{  
-public static void binary(int arr[], int first, int last, int key){  
+public static void binarySearch(int arr[], int first, int last, int key){  
 int mid = (first + last)/2;  
 while( first <= last ){  
 if ( arr[mid] < key ){  
@@ -24,6 +24,6 @@ last = mid - 1;
         int arr[] = {10,20,30,40,50};  
         int key = 30;  
         int last=arr.length-1;  
-        binary(arr,0,last,key);     
+        binarySearch(arr,0,last,key);     
  }  
 }  
