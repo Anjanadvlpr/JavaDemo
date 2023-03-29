@@ -2,13 +2,13 @@ class Armstrong
 {
 public static void main(String args[])
 {
-int n = 153;
-int temp = n;
+int m = 153;
+int temp = m;
 int p = 0;
-while (n > 0) {
-int rem = n % 10;                                                                                                                                                                                                                                                                    
+while (m > 0) {
+int rem = m % 10;                                                                                                                                                                                                                                                                    
 p = (p) + (rem * rem * rem);
-n = n / 10;
+m = m / 10;
 }
 if (temp == p) 
 {
